@@ -7,9 +7,41 @@ body {
 	max-height: 100% !important;
 	margin: 0 !important;
 	padding: 88px 180px;
-	background-image: url("img/background_page2.png");
+	background: url("img/background_page2.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
     background-position-y: 0;
     background-position-x: 0;
+}
+
+/* .opacity-100 {
+	opacity: 1 !important;
+}
+
+.opacity-50 {
+	opacity: 0.5 !important;
+} */
+
+.entete {
+	padding: 55px 27%;
+}
+
+.titre {
+	font-family: 'Cookie', cursive;
+	font-size: 60px;
+}
+
+.sous_titre {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px !important;
+	color: #ad6c12;
+}
+
+.plat {
+	padding: 69px 51px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.nom_plat, .prix {
+	font-weight: bold;
 }
