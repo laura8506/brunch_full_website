@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+header{
+  background-image: url("img/background_page_1.png");
+}
+
+nav{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+nav ul {
+  margin-left: 35%;
+}
+
+.navbar-brand, nav ul li a {
+  color: white !important;
+}
