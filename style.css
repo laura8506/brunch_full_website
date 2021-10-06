@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 
@@ -15,12 +16,16 @@ header{
 
 nav{
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  padding-left: 10%;
+  font-size: 36px !important;
+  padding-left: 13%;
 }
 
 nav ul {
-  margin-left: 30%;
+  margin-left: 27%;
+}
+
+nav ul li {
+  padding-right: 20px;
 }
 
 .navbar-brand, nav ul li a {
@@ -52,13 +57,15 @@ nav ul {
 }
 
 .readmore{
-  color: #26363a !important;
   background-color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 40pt;
   border: 1px solid transparent;
   border-radius: .25rem;
+}
+.readmore a {
+  color: #26363a !important;
 }
 
 .col-md-6.text-light h3, .col-md-6.text-light p{
