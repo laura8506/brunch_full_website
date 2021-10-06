@@ -67,6 +67,11 @@ nav ul li {
   color: #26363a !important;
 }
 
+/* for readmore */
+#readmore p {
+  text-align: justify;
+}
+
 .col-md-6.text-light h3, .col-md-6.text-light p{
   font-family: 'Raleway', sans-serif;
 }
