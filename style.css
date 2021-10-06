@@ -105,4 +105,6 @@ h5.subtitle{
   border-bottom: 10px solid #ff992b;
 }
 
-/* 340 */
+p.comment{
+  font-family: 'Raleway', sans-serif;
+}
