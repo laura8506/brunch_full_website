@@ -6,13 +6,13 @@ header{
 
 nav{
   font-family: 'Raleway', sans-serif;
-  font-size: 11.2px;
+  font-size: 20px;
 }
 
 nav ul {
-  margin-left: 50%;
+  margin-left: 35%;
 }
 
-nav ul li a {
+.navbar-brand, nav ul li a {
   color: white !important;
 }
