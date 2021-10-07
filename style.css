@@ -39,37 +39,41 @@ nav ul li {
 }
 
 .insert{
-  margin-top: 10.5%;
+  margin-top: 7.5%;
 }
-
 
 .col-md-8.offset-md-2.bg-light{
   height: 472px;
   min-width: 50%
 }
 
+.white-box{
+  padding: 7rem;
+}
+
 .title{
   color: #2c3a42;
-  padding-top: 5%;
   font-family: 'Cookie', cursive;
-  font-size: 90pt;
+  font-size: 9vw;
+  line-height: 6vw;
 }
 
 .subtitle{
   color: #ad6c12;
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
-  font-size: 65pt;
+  font-size: 5vw;
 }
 
 .readmore{
   background-color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-size: 40pt;
+  font-size: 3vw;
   border: 1px solid transparent;
   border-radius: .25rem;
 }
+
 .readmore a {
   color: #26363a !important;
 }
