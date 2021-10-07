@@ -95,7 +95,7 @@ h4{
 
 .new{
   font-family: 'Raleway', sans-serif;
-  padding: 5rem;
+  /* padding: 5rem; */
 }
 
 /* for bottom page */
@@ -105,8 +105,9 @@ h4.title{
 }
 
 h5.subtitle{
-  font-size: 5rem;
+  font-size: 5vw;
 }
+
 
 .btn-read-more{
   border-bottom: 10px solid #ff992b;
