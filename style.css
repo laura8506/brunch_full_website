@@ -7,9 +7,27 @@
 .bg-light{
   background-color: #d4d8d9 !important;
 }
+
+/* Add font in class */
+
+.col-md-6.text-light h3, .col-md-6.text-light p , h4, .new, p.comment, h5.link, p.link, .readmore, .subtitle, nav{
+  font-family: 'Raleway', sans-serif;
+}
+
+.title{
+  font-family: 'Cookie', cursive;
+}
+
+.link{
+  font-family: Roboto, sans-serif;
+}
+
+/* style */
+
 body{
   background-color: #26363a;
 }
+
 header{
   top: 0 !important;
   background: url("img/background_page_1.png") no-repeat left;
@@ -20,7 +38,6 @@ header{
 }
 
 nav{
-  font-family: 'Raleway', sans-serif;
   font-size: 2vw !important;
   padding-left: 13%;
 }
@@ -53,21 +70,18 @@ nav ul li {
 
 .title{
   color: #2c3a42;
-  font-family: 'Cookie', cursive;
   font-size: 9vw;
   line-height: 6vw;
 }
 
 .subtitle{
   color: #ad6c12;
-  font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   font-size: 5vw;
 }
 
 .readmore{
-  background-color: white;
-  font-family: 'Raleway', sans-serif;
+  background-color: white;;
   font-weight: bold;
   font-size: 3vw;
   border: 1px solid transparent;
@@ -83,44 +97,12 @@ nav ul li {
   text-align: justify;
 }
 
-.col-md-6.text-light h3, .col-md-6.text-light p{
-  font-family: 'Raleway', sans-serif;
-}
-
-/* For new tastes/spices and dishes */
-
-h4{
-  font-family: 'Raleway', sans-serif;
-}
-
-.new{
-  font-family: 'Raleway', sans-serif;
-  /* padding: 5rem; */
-}
-
 /* for bottom page */
-
-h4.title{
-  font-family: 'Cookie', cursive;
-}
 
 h5.subtitle{
   font-size: 5vw;
 }
 
-
 .btn-read-more{
   border-bottom: 10px solid #ff992b;
-}
-
-p.comment{
-  font-family: 'Raleway', sans-serif;
-}
-
-h5.link, p.link{
-  font-family: 'Raleway', sans-serif;
-}
-
-.link{
-  font-family: Roboto, sans-serif;
 }
