@@ -11,21 +11,23 @@ body{
   background-color: #26363a;
 }
 header{
-  top: 0;
+  top: 0 !important;
   background: url("img/background_page_1.png") no-repeat left;
-  background-size: 100%;
+  background-size: 1920px;
+  background-position: 50% 50% ;
+  overflow: hidden;
   height: 1000px;
-
 }
 
 nav{
   font-family: 'Raleway', sans-serif;
-  font-size: 36px !important;
+  font-size: 2vw !important;
   padding-left: 13%;
 }
 
 nav ul {
-  margin-left: 27%;
+  position: absolute;
+  right: 17vw;
 }
 
 nav ul li {
