@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@400;500;600;700&display=swap');
 
+* {
+	overflow-x: hidden;
+}
+
 body {
 	background-color: #2a3b40;
 }
 
-.background {
+.background_page2 {
 	max-width: 100% !important;
 	max-height: 100% !important;
 	margin: 0 !important;
@@ -37,12 +41,13 @@ body {
 
 .sous_titre {
 	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
 	font-size: 50px !important;
 	color: #ad6c12;
 }
 
 .plat {
-	padding: 69px 51px;
+	padding: 50px 50px;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -66,4 +71,52 @@ p {
 .vecteur_droit {
 	position: float;
 	float: right;
+}
+
+.raleway_bold {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.raleway_regular {
+	font-family: 'Raleway', sans-serif;
+}
+
+.fa-ellipsis-h {
+	font-size: 70px;
+}
+
+.menu {
+	font-weight: bold;
+}
+
+.background_page3 {
+	max-width: 100% !important;
+	max-height: 100% !important;
+	margin: 0 !important;
+	margin-top: -.37rem !important;
+	background: url("img/background_page_3.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+    background-position-y: 0;
+    background-position-x: 0;
+    padding-top: 270px;
+}
+
+.nom_plat2 {
+	line-height: 2;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.rond {
+	margin-bottom: 8%;
+	height: 6vw;
+	width: 6vw;
+}
+
+.image_rond {
+	height: 4vh;
+	width: 3vw;
 }
