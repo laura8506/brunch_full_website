@@ -55,6 +55,10 @@ nav ul li {
   color: white !important;
 }
 
+.open-nav{
+  right: -7px;
+}
+
 .insert{
   margin-top: 7.5%;
 }
