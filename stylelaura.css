@@ -8,7 +8,7 @@ body {
 	max-width: 100% !important;
 	max-height: 100% !important;
 	margin: 0 !important;
-	padding: 88px 180px;
+	padding: 60px 180px;
 	background: url("img/background_page2.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -30,7 +30,9 @@ body {
 
 .titre {
 	font-family: 'Cookie', cursive;
-	font-size: 100px;
+	font-size: 80px;
+	margin-top: -10px;
+	margin-bottom: -40px;
 }
 
 .sous_titre {
@@ -46,4 +48,22 @@ body {
 
 .nom_plat, .prix {
 	font-weight: bold;
+}
+
+.nom_plat {
+	line-height: 3;
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.prix {
+	font-size: 15px;
+}
+
+.vecteur_droit {
+	position: float;
+	float: right;
 }
