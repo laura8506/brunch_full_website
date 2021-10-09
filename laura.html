@@ -185,17 +185,50 @@
   <div class="row">
     <p class="titre text-white text-center">Book here</p>
   </div>
-  <div class="row">
-    <div class="col">
-
+  <form class="" action="" method="post"></form>
+    <div class="row text-white">
+      <div class="col">
+        <div>
+          <label for="nombre_pers">How many people ?</label><br>
+          <select class="formulaire_resa text-white bg-transparent border-white rounded-3 border-2" id="nombre_pers" value="2 people" name="nombre_personnes">
+            <option value="p1">1 person</option>
+            <option value="p2" selected>2 people</option>
+            <option value="p3">3 people</option>
+            <option value="p4">4 people</option>
+            <option value="p5">5 people</option>
+            <option value="p6">6 people</option>
+          </select>
+        </div>
+        <div>
+          <label for="name">Name</label><br>
+          <input class="formulaire_resa text-white bg-transparent border-white rounded-3" id="name" type="text" value="Full name" name="nom">
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <label for="date">When is your date ?</label><br>
+          <input class="formulaire_resa text-white bg-transparent border-white rounded-3" id="date" type="date" value="2020-02-17" name="date">
+        </div>
+        <div>
+          <label for="email">Email</label><br>
+          <input class="formulaire_resa text-white bg-transparent border-white rounded-3" id="email" type="email" value="Your email address" name="email">
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <label for="time">Time</label><br>
+          <input class="formulaire_resa text-white bg-transparent border-white rounded-3" id="time" type="time" value="10:00" min="10:00" max="21:00" name="time">
+        </div>
+        <div>
+          <label for="phone">Phone</label><br>
+          <input class="formulaire_resa text-white bg-transparent border-white rounded-3" id="phone" type="tel" value="Your phone" name="tel">
+        </div>
+      </div>
     </div>
-    <div class="col">
-
+    <div class="row text-white">
+      <button type="submit" class="bouton_contact text-uppercase"><a href="#">Submit</a></button>
     </div>
-    <div class="col">
-
-    </div>
-  </div>
+  </form>
 </div>
 <div>
   <img src="img/background_apres_form.png" class="background_apres_form">
