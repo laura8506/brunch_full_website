@@ -40,11 +40,30 @@ header{
 nav{
   font-size: 2vw !important;
   padding-left: 13%;
+  z-index: 1000000;
+}
+
+.show ul li a, .collapsing ul li a{
+  color: black !important;
+}
+
+.navbar-collapse ul li a {
+  padding-bottom: 0rem !important;
+  padding-top: 0rem !important;
+}
+
+.collapse ul li a {
+  text-shadow: 1px 0 10px white;
+  transition: text-shadow .2s ease-in-out;
+}
+
+.show ul, .collapsing ul {
+  top: 60px;
 }
 
 nav ul {
   position: absolute;
-  right: 17vw;
+  right: -.5vw;
 }
 
 nav ul li {
@@ -53,10 +72,6 @@ nav ul li {
 
 .navbar-brand, nav ul li a {
   color: white !important;
-}
-
-.open-nav{
-  right: -7px;
 }
 
 .insert{
@@ -85,7 +100,7 @@ nav ul li {
 }
 
 .readmore{
-  background-color: white;;
+  background-color: white;
   font-weight: bold;
   font-size: 3vw;
   border: 1px solid transparent;
