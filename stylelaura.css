@@ -76,6 +76,9 @@ p {
 .raleway_bold {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+}
+
+.titre_size {
 	font-size: 30px;
 }
 
@@ -143,4 +146,12 @@ p {
 
 input {
 	border-style: solid;
+}
+
+a {
+	text-decoration: none;
+}
+
+.submit {
+	width: 200px;
 }
