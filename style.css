@@ -30,7 +30,7 @@ body{
 
 header{
   top: 0 !important;
-  background: url("img/background_page_1.png") no-repeat left;
+  background: url("img/background_page_1.webp") no-repeat left;
   background-size: 1920px;
   background-position: 50% 50% ;
   overflow: hidden;
@@ -79,7 +79,7 @@ nav ul li {
 }
 
 .subtitle{
-  color: #ad6c12;
+  color: #80500e; /* for wcag*/
   font-weight: bolder;
   font-size: 5vw;
 }
