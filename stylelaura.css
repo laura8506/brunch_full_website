@@ -6,13 +6,13 @@
 
 body {
 	background-color: #2a3b40;
+	color: #2a3b40;
 }
 
 .background_page2 {
 	max-width: 100% !important;
 	max-height: 100% !important;
 	margin: 0 !important;
-	padding: 60px 180px;
 	background: url("img/background_page2.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -20,21 +20,9 @@ body {
     background-position-x: 0;
 }
 
-/* .opacity-100 {
-	opacity: 1 !important;
-}
-
-.opacity-50 {
-	opacity: 0.5 !important;
-} */
-
-.entete {
-	padding: 55px 27%;
-}
-
 .titre {
 	font-family: 'Cookie', cursive;
-	font-size: 80px;
+	font-size: 10.4vh;
 	margin-top: -10px;
 	margin-bottom: -40px;
 }
@@ -42,17 +30,8 @@ body {
 .sous_titre {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-	font-size: 50px !important;
+	font-size: 6.5vh !important;
 	color: #ad6c12;
-}
-
-.plat {
-	padding: 50px 50px;
-	font-family: 'Raleway', sans-serif;
-}
-
-.nom_plat, .prix {
-	font-weight: bold;
 }
 
 .nom_plat {
@@ -94,6 +73,11 @@ p {
 	font-weight: bold;
 }
 
+.menu a {
+	text-decoration: none;
+	color: #2a3b40;
+}
+
 .background_page3 {
 	max-width: 100% !important;
 	max-height: 100% !important;
@@ -104,7 +88,7 @@ p {
 	background-size: 100% auto;
     background-position-y: 0;
     background-position-x: 0;
-    padding-top: 270px;
+    padding-top: 35vh;
 }
 
 .nom_plat2 {
@@ -148,10 +132,31 @@ input {
 	border-style: solid;
 }
 
+input, select {
+	width: 14.7vw;
+}
+
+input:focus, select:focus {
+	outline: 0 !important;
+}
+
 a {
 	text-decoration: none;
 }
 
 .submit {
-	width: 200px;
+	width: 14.7vw;
+	border-style: solid;
+}
+
+.background_select {
+	background-color: #2a3b40;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+::placeholder {
+	color: white;
 }
