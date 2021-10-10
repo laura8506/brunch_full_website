@@ -132,10 +132,6 @@ input {
 	border-style: solid;
 }
 
-input, select {
-	width: 14.7vw;
-}
-
 input:focus, select:focus {
 	outline: 0 !important;
 }
@@ -145,7 +141,7 @@ a {
 }
 
 .submit {
-	width: 14.7vw;
+	/* width: 14.7vw; */
 	border-style: solid;
 }
 
