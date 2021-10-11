@@ -166,3 +166,17 @@ a {
 ::placeholder {
 	color: white;
 }
+
+@media (max-width: 576px) {
+	.texte_photo {
+		top: 25%;
+		width: 50%;
+		height: 100%;
+		position: absolute;
+	}
+	.change_opacity {
+		opacity: 0.5;
+	}
+}
+
+/* overflow: hidden; ? */
