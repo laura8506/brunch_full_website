@@ -11,14 +11,9 @@ body {
 
 @media (min-width: 768px) {  
 	.background_page2 {
-		max-width: 100% !important;
-		max-height: 100% !important;
-		margin: 0 !important;
-		background: url("img/background_page_2.png");
-		background-repeat: no-repeat;
-		background-size: 100% auto;
-		background-position-y: 0;
-		background-position-x: 0;
+		background: url("img/background_page_2.png") no-repeat;
+		background-size: 1920px;
+		background-position: 50% 50%;
 	}
 }
 
@@ -81,15 +76,10 @@ p {
 
 @media (min-width: 768px) {  
 	.background_page3 {
-		max-width: 100% !important;
-		max-height: 100% !important;
-		margin: 0 !important;
 		margin-top: -.39rem !important;
-		background: url("img/background_page_3.png");
-		background-repeat: no-repeat;
-		background-size: 100% auto;
-		background-position-y: 0;
-		background-position-x: 0;
+		background: url("img/background_page_3.png") no-repeat;
+		background-size: 1920px;
+		background-position: 50% 50%;
 		padding-top: 35vh;
 	}
 }
