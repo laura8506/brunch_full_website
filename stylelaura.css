@@ -80,7 +80,7 @@ p {
 		background: url("img/background_page_3.png") no-repeat;
 		background-size: 1920px;
 		background-position: 50% 50%;
-		padding-top: 35vh;
+		padding-top: 32vh;
 	}
 }
 
@@ -168,6 +168,20 @@ a {
 		opacity: 0.75;
 		top: 0;
 		bottom: 0;
+		z-index: 10000;
+		font-weight: bold;
+	}
+
+	.prix, .nom_plat {
+		font-style: italic;
+	}
+
+	.nom_plat, .desc_plat, .prix {
+		opacity: 1 !important;
+	}
+
+	.nom_plat {
+		text-decoration: underline;
 	}
 
 	.texte_photo_gauche {
