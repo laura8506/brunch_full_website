@@ -138,7 +138,6 @@ h5.subtitle{
   border-bottom: 10px solid #ff992b;
 }
 
-
 @media (min-width: 768px) {
 	.background_page2 {
 		background: url("img/background_page_2.webp") no-repeat;
@@ -232,9 +231,22 @@ p {
 	}
 }
 
+.container_pele_mele {
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+}
+
 @media (max-width: 768px) {
 	.marge_background {
 		margin-bottom: -0.9vh;
+	}
+
+	.texte_photo_gauche {
+		left: 0;
+	}
+
+	.texte_photo_droite {
+		right: 0;
 	}
 }
 
@@ -320,6 +332,10 @@ a {
 		font-weight: bold;
 	}
 
+	.sous_titre {
+			line-height: 1;
+	}
+
 	.prix, .nom_plat {
 		font-style: italic;
 	}
@@ -334,12 +350,10 @@ a {
 
 	.texte_photo_gauche {
 		left: 0;
-		padding-left: 23px;
 	}
 
 	.texte_photo_droite {
 		right: 0;
-		padding-right: 23px;
 	}
 }
 
