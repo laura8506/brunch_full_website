@@ -149,8 +149,17 @@ h5.subtitle{
 .titre {
 	font-family: 'Cookie', cursive;
 	font-size: 10.4vh;
-	margin-top: -10px;
-	margin-bottom: -40px;
+	line-height: 1;
+}
+
+@media (orientation: landscape) {
+	.titre {
+		font-size: 9vw;
+	}
+
+	.sous_titre {
+		font-size: 5vw !important;
+	}
 }
 
 .sous_titre {
@@ -158,6 +167,8 @@ h5.subtitle{
 	font-weight: 600;
 	font-size: 6.5vh !important;
 	color: #80500e;
+	line-height: 0;
+	margin-bottom: 30px !important;
 }
 
 .nom_plat {
