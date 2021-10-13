@@ -333,10 +333,12 @@ a {
 
 	.texte_photo_gauche {
 		left: 0;
+		padding-left: 23px;
 	}
 
 	.texte_photo_droite {
 		right: 0;
+		padding-right: 23px;
 	}
 }
 
