@@ -115,6 +115,26 @@ nav ul li {
   border-radius: .25rem;
 }
 
+@media (max-width: 576px) {
+	.white-box {
+		padding: 9vh 0 9vh 0;
+	}
+
+	.title{
+	  font-size: 15vw;
+	  line-height: 12vw;
+	}
+
+	.subtitle{
+	  font-size: 9vw;
+	}
+
+	.readmore{
+	  font-size: 6vw;
+	  margin-top: 9vw;
+	}
+}
+
 .readmore a {
   color: #26363a !important;
 }
