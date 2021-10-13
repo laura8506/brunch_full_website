@@ -103,7 +103,7 @@ nav ul li {
 
 .subtitle{
   color: #80500e; /* for wcag*/
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 5vw;
 }
 
@@ -126,7 +126,7 @@ nav ul li {
 	}
 
 	.subtitle{
-	  font-size: 9vw;
+	  font-size: 9vw !important;
 	}
 
 	.readmore{
