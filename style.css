@@ -32,6 +32,8 @@
 body{
   background-color: #2a3b40;
   color: #2a3b40;
+  overflow-x: hidden !important;
+	max-width: 100%;
 }
 
 header{
