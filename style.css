@@ -39,7 +39,6 @@ header{
   background: url("img/background_page_1.webp") no-repeat left;
   background-size: 1920px;
   background-position: 50% 50% ;
-  overflow: hidden;
   min-height: 100vh;
 }
 
@@ -90,7 +89,7 @@ nav ul li {
 }
 
 .white-box{
-  padding: 7rem;
+  padding: 12.5vh 0 12.5vh 0;
 }
 
 .title{
