@@ -256,6 +256,10 @@ p {
 	padding-right: 12px !important;
 }
 
+.background-opacity {
+	background-color: rgba(245, 245, 245, 0.75) !important;
+}
+
 @media (max-width: 768px) {
 	.marge_background {
 		margin-bottom: -0.9vh;
